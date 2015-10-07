@@ -5,7 +5,7 @@
 {"name" : "You don't exist. Go away.", "platform" : "nix"},
 {"name" : "Not a Typewriter", "platform" : "nix"},
 {"name" : "No keyboard detected. Press F1 to resume.", "platform" : "win"},
-{"name" : "I'm sorry Dave, I’m afraid I can't do that.", "platform" : "misc"},
+{"name" : "I'm sorry Dave, I'm afraid I can't do that.", "platform" : "misc"},
 {"name" : "Printing is not supported on this printer.", "platform" : "nix"},
 {"name" : "Stack overflow", "platform" : "lang"},
 {"name" : "Floating point exception", "platform" : "lang"},
