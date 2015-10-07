@@ -20,11 +20,14 @@ either run it on your own server with `node server.js`, or be a cheapo and use t
 
 ## API
 ### getting an error
-make a GET request to anything to get an error message back.
+make a GET request to `/txt` or `/` to get an error message back in plaintext.
+
+alternatively, you can also send a GET request to `/json` to get a JSON response.
 
 ## roadmap
  - [ ] allow selection of type of error message (ie, web, nix, win, misc, all) - quite hard
  - [ ] use [mongoDB](https://www.youtube.com/watch?v=dQw4w9WgXcQ) somehow to make this /really/ web-scale
+ - [ ] Java Exception class that uses this
 
 ## contributing
 Please donate your error messages! Fork the repo, add to the end of `errors.json` and make a pull request.
