@@ -14,5 +14,6 @@
 {"name" : "The operation completed successfully.", "platform" : "win"},
 {"name" : "Something happened", "platform" : "win"},
 {"name" : "lp0 on fire", "platform" : "nix"},
-{"name" : ":(", "platform" : "win"}
+{"name" : ":(", "platform" : "win"},
+{"name" : "He's dead, Jim!", "platform" : "misc"}
 ]

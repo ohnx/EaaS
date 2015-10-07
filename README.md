@@ -23,7 +23,7 @@ either run it on your own server with `node server.js`, or be a cheapo and use t
 make a GET request to anything to get an error message back.
 
 ## roadmap
- - [ ] allow selection of type of error message (ie, web, nix, win, misc, all)
+ - [ ] allow selection of type of error message (ie, web, nix, win, misc, all) - quite hard
  - [ ] use [mongoDB](https://www.youtube.com/watch?v=dQw4w9WgXcQ) somehow to make this /really/ web-scale
 
 ## contributing
