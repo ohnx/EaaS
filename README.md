@@ -13,8 +13,8 @@ Returned error messages are taken from some of the tech industry's best error-pr
 ## usage
 either run it on your own server with `node server.js`, or be a cheapo and use the one I'm hosting on [Red Hat OpenShift](https://www.openshift.com/) at the url [http://eaas-ohnx.rhcloud.com/](http://eaas-ohnx.rhcloud.com/)
 
-# API
-## getting an error
+## API
+### getting an error
 make a GET request to anything to get an error message back.
 
 ## roadmap
