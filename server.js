@@ -1,6 +1,9 @@
 var http = require('http');
 var fs = require('fs');
 
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var server_ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
 console.log("Reading errors file...");
 try {
     var readData = fs.readFileSync("errors.json");
@@ -22,4 +25,4 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     var item = items[Math.floor(Math.random()*items.length)];
     res.end(item.name);
-}).listen(80, process.env.IP);
+}).listen(server_port, server_ip);
