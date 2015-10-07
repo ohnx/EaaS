@@ -1,0 +1,18 @@
+[
+{"name" : "404 Not Found", "platform" : "web"},
+{"name" : "500 Internal Server Error", "platform" : "web"},
+{"name" : "Kernel Panic", "platform" : "osx"},
+{"name" : "You don’t exist. Go away.", "platform" : "nix"},
+{"name" : "Not a Typewriter", "platform" : "nix"},
+{"name" : "No keyboard detected. Press F1 to resume.", "platform" : "win"},
+{"name" : "I’m Sorry Dave, I’m afraid I can’t do that.", "platform" : "misc"},
+{"name" : "Printing is not supported on this printer.", "platform" : "nix"},
+{"name" : "Stack overflow", "platform" : "lang"},
+{"name" : "Floating point exception", "platform" : "lang"},
+{"name" : "Segmentation fault", "platform" : "lang"},
+{"name" : "Bus error", "platform" : "lang"},
+{"name" : "The operation completed successfully.", "platform" : "win"},
+{"name" : "Something happened", "platform" : "win"},
+{"name" : "lp0 on fire", "platform" : "nix"},
+{"name" : ":(", "platform" : "win"}
+]
