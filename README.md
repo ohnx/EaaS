@@ -1,5 +1,6 @@
 # EaaS
 [![Build Status](https://travis-ci.org/ohnx/EaaS.svg?branch=master)](https://travis-ci.org/ohnx/EaaS)
+[![Dependencies](https://david-dm.org/ohnx/EaaS.svg)](https://david-dm.org/ohnx/EaaS)
 
 Error as a Service
 
