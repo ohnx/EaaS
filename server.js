@@ -22,4 +22,4 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     var item = items[Math.floor(Math.random()*items.length)];
     res.end(item.name);
-}).listen(process.env.PORT, process.env.IP);
+}).listen(80, process.env.IP);
