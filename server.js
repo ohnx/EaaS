@@ -9,7 +9,10 @@ var fs = require('fs');
 
 // config
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080;
-var server_ip = process.env.OPENSHIFT_NODEJS_IP || process.env.IP || '127.0.0.1';
+var server_ip = process.env.IP || '127.0.0.1';
+if(process.env.OPENSHIFT_NODEJS_IP) {
+    server_ip = process.env.OPENSHIFT_NODEJS_IP;
+}
 
 console.log("Reading errors file...");
 // read the errors file
@@ -45,9 +48,11 @@ http.createServer(function (req, res) {
         rettype = 'text/json';
         break;
     default:
-        ret = "EaaS\nFor help, visit https://github.com/ohnx/EaaS";
+        ret = "Invalid request";
         break;
     }
     res.writeHead(200, {'Content-Type': rettype});
     res.end(ret);
-}).listen(server_port, server_ip);
+}).listen(server_port, server_ip, function () {
+    console.log("Server started! Accepting requests to %s:%d ", server_ip, server_port);
+});

@@ -19,7 +19,7 @@
 {"name" : "ERROR: Root device mounted successfully, but /sbin/init does not exist.\nBailing out, you are on your own. Good luck!", "platform" : "nix"},
 {"name" : "No /dev nodes. What kind of mutant ninja machine is this?", "platform" : "nix"},
 {"name" : "ERROR: A really big FUCK UP has been detected !!", "platform" : "nix"},
-{"name" : "This can’t happen.", "platform" : "nix"},
+{"name" : "This can't happen.", "platform" : "nix"},
 {"name" : "Unexpected ';', expecting ';'", "platform" : "nix"},
 {"name" : "Help is not available for you.", "platform" : "nix"},
 {"name" : "Cannot delete: There is not enough free disk space.", "platform" : "win"},
@@ -30,5 +30,5 @@
 {"name" : "Guru Meditation", "platform" : "misc"},
 {"name" : "Abort, Retry, Fail?", "platform" : "win"},
 {"name" : "Core dumped", "platform" : "lang"},
-{"name" : "504 Gateway Timeout", "platform" : "web"},
+{"name" : "504 Gateway Timeout", "platform" : "web"}
 ]
