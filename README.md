@@ -16,7 +16,7 @@ Returned error messages are taken from some of the tech industry's best error-pr
 Some other error messages are just error messages. After all, Windows and Unix only have a limited number of actually good error messages.
 
 ## usage
-either run it on your own server with `node server.js`, or be a cheapo and use the one I'm hosting on [Red Hat OpenShift](https://www.openshift.com/) at the url [http://eaas.masonx.tk/](http://eaas.masonx.tk/)
+either run it on your own server with `node server.js`, or be a cheapo and use the one I'm hosting on [Red Hat OpenShift](https://www.openshift.com/) at the url [http://eaas.masonx.ca/](http://eaas.masonx.ca/)
 
 ## API
 ### getting an error
